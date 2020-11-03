@@ -1,3 +1,3 @@
 FROM levonet/rsyslog:latest
 
-RUN apk add --no-cache tzdata
+RUN apk add --no-cache tzdata logrotate
